@@ -451,6 +451,19 @@ a
 	transform: scaleY(1.2);
 }
 
+@media screen and (max-width: 650px)
+{
+	.carousel-item
+	{
+		width: 100%;
+	}
+
+	.latest-release-item
+	{
+		width: 100%;
+	}
+}
+
 .popular-artist-container
 {
 	height: auto;
@@ -517,6 +530,23 @@ a
 .popular-artist-item:hover #popular-artist-name
 {
 	color: powderblue;
+}
+
+@media screen and (max-width: 1150px)
+{
+	.artist-album-container
+	{
+		width: 40%;
+	}
+
+	.artist-album-detail
+	{
+		width: 55%;
+	}
+	.artist-page-container
+	{
+		width : 100%;
+	}
 }
 
 .text-style
