@@ -205,6 +205,14 @@ a
 	}
 }
 
+.section-container
+{
+	display: flex;
+	justify-content: center;
+	height: auto;
+	margin-top: 5px;
+}
+
 .main-container
 {
 	height: auto;
@@ -285,6 +293,168 @@ a
 		z-index: 5;
 	}
 }
+
+
+.latest-release-container
+{
+	height: auto;
+	/*border: 2px solid orange;*/
+	margin-top: 5px;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	max-height: 183px;
+	overflow: hidden;
+}
+
+.latest-release-item
+{
+	height: 5.5rem;
+	width: 46%;
+	/*border: 3px dotted darkred;*/
+	flex-grow: 1;
+	display: flex;
+	transition: 0.5s all ease-in-out;
+}
+
+.album-image-container
+{
+	width: 20%;
+	/*border: 2px solid white;*/
+	padding:2%;
+	transition: 0.5s all ease-in-out;
+	position: relative;
+}
+
+.album-image
+{
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	opacity: 0.9;
+}
+
+.song-icon
+{
+	font-size: 2.2rem;
+	position: absolute;
+	top: 30%;
+	left: 35%;
+	color: white;
+	transition: 0.5s all ease-in-out;
+	opacity: 0;
+}
+.album-title
+{
+	width: 60%;
+}
+
+.album-detail
+{
+	width: 20%;
+}
+
+.album-option
+{
+	font-size: 1.6rem;
+	color: lightgrey;
+	padding: 1%;
+	text-align: center;
+	opacity: 0.8;
+	transition: 0.5s all ease-in-out;
+	position: relative;
+}
+
+.option-list
+{
+	height: auto;
+	width: 80%;
+	position: absolute;
+	right: 75%;
+	top: 60%;
+	transition: 0.3s all ease-in-out;
+	visibility: hidden;
+	overflow: hidden;
+	transition: 0.3s width ease-in;
+}
+
+#song-option:hover ~ .option-list
+{
+	visibility: visible;
+	width: 160%;
+}
+.option-list-ul
+{
+	color: black;
+	font-size: 1.2rem;
+	list-style: none;
+	font-weight: bold;
+	padding: 0;
+	margin:0;
+}
+
+.option-list-item
+{
+	border-bottom:2px solid black;
+	border-radius:5px;
+	font-size: 1rem;
+	text-align: center;
+	padding: 3% 5% 3% 5%;
+	background-image: linear-gradient(to right, white , lightgreen);
+	color: navy;
+	font-weight: bolder;
+}
+
+.album-time
+{
+	font-size: 1rem;
+	color: lightgrey;
+	padding: 1%;
+	text-align: center;
+	opacity: 0.9;
+}
+
+.song-name
+{
+	padding:2%;
+	font-size: 1.6rem;
+	color: white;
+	font-family: monospace;
+	margin-top: 3%;
+	padding-bottom: 0px;
+	transition: 0.5s all ease-in-out;
+}
+
+.song-date
+{
+	margin: 0px;
+	font-size: 1rem;
+	color: lightgrey;
+	padding-left: 2%;
+	opacity: 0.8;
+}
+
+.latest-release-item:hover
+{
+	background-color: #01014E;
+	border-radius: 10px;
+}
+
+.latest-release-item:hover .song-icon
+{
+	opacity: 1;
+}
+
+.latest-release-item:hover .song-name
+{
+	color: powderblue;
+	transform: scaleY(1.2);
+}
+
+
+
+
+
 .aside-container
 {
 	height: auto;
