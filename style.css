@@ -451,6 +451,92 @@ a
 	transform: scaleY(1.2);
 }
 
+.popular-artist-container
+{
+	height: auto;
+	margin-top: 5px;
+	display: flex;
+	flex-wrap: wrap;
+	overflow: hidden;
+	max-height: 219px;
+}
+
+.popular-artist-item
+{
+	position: relative;
+	margin-bottom: 20%;
+	width: 12%;
+	height: 11rem;
+	flex-grow: 1;
+	min-width: 150px;
+	padding : 1%;
+	border-radius: 50%;
+}
+
+.popular-artist-image
+{
+	border-radius: 50%;
+	box-shadow: 1px 1px 5px 2px lightgrey;
+	opacity: 0.9;
+}
+
+.play-icon-container
+{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	visibility: visible;
+	z-index: 2;
+	left:-1%;
+}
+
+.play-icon-image
+{
+	padding: 20%;
+	border-radius: 50%;
+	opacity: 0;
+	font-size: 2rem;
+	color: white;
+	box-shadow: 0px 0px 30px 2px lightgrey;
+	transition: 0.5s all ease-in-out;
+}
+
+#popular-artist-name
+{
+}
+
+.popular-artist-item:hover .play-icon-image
+{
+	opacity: 1;	
+}
+
+.popular-artist-item:hover #popular-artist-name
+{
+	color: powderblue;
+}
+
+.text-style
+{
+	padding: 2px;
+	text-align: center;
+	color: #cca300;
+	font-size: 1.1rem;
+	word-spacing:0.8px;
+	letter-spacing: 0.4px;
+	transition: 0.5s all ease-in-out;
+	opacity: 1;
+	font-style: oblique;
+}
+
+.text-style:hover
+{
+	color: powderblue;
+	opacity: 1.4;
+}
 
 
 
