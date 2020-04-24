@@ -1227,3 +1227,26 @@ a
 		width: 9%;
 	}
 }
+
+#bottom-margin
+{
+	height: 2vh; 
+	background-color: lightgrey;
+	margin-top: 4.5%;
+}
+
+@media screen and (max-width: 1000px)
+{
+	#bottom-margin
+	{
+		margin-top: 8%;
+	}
+}
+
+@media screen and (max-width: 500px)
+{
+	#bottom-margin
+	{
+		margin-top: 14%;
+	}
+}
