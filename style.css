@@ -1231,7 +1231,6 @@ a
 #bottom-margin
 {
 	height: 2vh; 
-	background-color: lightgrey;
 	margin-top: 4.5%;
 }
 
@@ -1247,6 +1246,283 @@ a
 {
 	#bottom-margin
 	{
-		margin-top: 14%;
+		margin-top: 12%;
+	}
+}
+
+.artist-page-container
+{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 95%;
+}
+.artist-page-heading
+{
+	margin-top: 2%;
+	font-size: 1.4rem;
+	color: #ffffe6;
+	font-style: normal;
+	font-family: sans-serif;
+	transition: 0.5s all ease-in-out;
+	width: 76%;
+}
+.artist-page-heading:hover
+{
+	color: #ffffb3;
+	opacity: 1;
+}
+
+.view-all-title
+{
+	font-size: 0.8rem;
+	font-family: sans-serif;
+	font-style: normal;
+	opacity: 0.8;
+	width: 20%;
+	text-align: right;
+}
+
+.artist-album-detail-container
+{
+	height: 23rem; 
+	display: flex;
+	justify-content: center;
+	/*border: 3px dotted cyan;*/
+	width: 100%;
+	margin: 2% 0% 2% 0%;
+	background-color: #010132;
+	border-radius: 5px;
+}
+
+.image-dimension-100
+{
+	height: 100%;
+	width: 100%;
+}
+
+.artist-album-image-container
+{
+	width: 39%;
+	/*border:2px solid red;*/
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	border-radius: 10px;
+	opacity: 0.85;
+}
+
+.artist-album-detail
+{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 59%;
+	/*border: 2px solid yellow;*/
+	height: 100%;
+	color: white;
+	font-size: 1.7rem;
+	margin-left: 2%;
+	opacity: 0.9;
+	color: lightgrey;
+	text-align: justify;
+}
+
+#artist-milind-name
+{
+	font-size: 1.7rem;
+	font-family: sans-serif;
+	color: powderblue;
+	padding: 1%;
+}
+
+.artist-milind-detail
+{
+	font-size: 1.1rem;
+	opacity: 0.8;
+	font-family: sans-serif;
+	color: lightgrey;
+	padding: 1%;
+	margin: 1.5% 0% 1.5% 0%;
+}
+
+.image-effect
+{
+    position: absolute;
+    top: 100%;
+    /* left: 20px; */
+    width: 100%;
+    box-shadow: 0px -30px 83px 35px #010132;
+}
+
+.artist-song-container
+{
+	height: auto;
+	display: flex;
+	margin-top: 0;
+	flex-direction: column;
+}
+
+.artist-song-item
+{
+	width: 100%;
+	margin: 0.7% 0% 0.7% 0%;
+	height: 4.3rem;
+	background-color: #010132;
+	display: flex;
+	align-items: center;
+	border-radius: 10px;
+	transition: 0.4s all ease-in-out;
+}
+
+.artist-song-number
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 6%;
+	font-size: 0.9rem;
+	color: lightgrey;
+	height: 100%;
+	opacity: 0.8;
+}
+
+.artist-song-image
+{
+	width: 8%;
+	height: 90%;
+	position: relative;
+}
+
+.artist-song-play-icon
+{
+	color: white; 
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    font-size: 1.6rem;
+    top: 0;
+    opacity: 0;
+    transition: 0.4s all ease-in-out;
+    visibility: hidden;
+}
+
+.artist-song-name
+{
+	color: lightgrey;
+	margin-left: 3%;
+	font-family: sans-serif;
+	width: 75%;
+}
+
+.artist-songs-name
+{
+	font-family: sans-serif;
+	font-size: 1.1rem;
+	color: powderblue;
+}
+
+.artist-album-name
+{
+	font-family: sans-serif;
+	font-size: 0.9rem;
+	opacity: 0.8;
+	color: powderblue;
+}
+
+.artist-song-icons
+{
+	width: 10%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.icon-style
+{
+	font-size: 1rem;
+	padding:2%;
+	color: lightgrey;
+	opacity: 0.8;
+	margin:3%;
+}
+
+.icon-style:hover
+{
+	color: cyan;
+}
+
+.artist-song-item:hover
+{
+/*	background-color: #01014E;
+*/	background-image: linear-gradient(to right,#0000ff00,#ff00006e);
+}
+
+.artist-song-item:hover .artist-song-play-icon
+{
+	visibility: visible;
+	opacity: 1;
+}
+
+#playnowbutton
+{
+	color: white;
+	font-weight: bold;
+	font-size: 1.1rem;
+	background-image: linear-gradient(to right, blue , purple);
+	padding:1.5% 0% 1.5% 0%; 
+	border:0px;
+	width: 30%;
+}
+
+#playnowbutton:hover
+{
+	background-image: linear-gradient(to right,blue,red);
+}
+
+#follow
+{
+	color: white;
+	font-weight: bold;
+	font-size: 1.0rem;
+	background-color:#010132;
+	padding:1.5% 0% 1.5% 0%; 
+	border:0px;
+	width: 30%;
+	opacity: 0.7;
+	transition: 4s background ease-in-out;
+}
+
+@media screen and (max-width: 1150px)
+{
+	.artist-album-container
+	{
+		width: 40%;
+	}
+
+	.artist-album-detail
+	{
+		width: 55%;
+	}
+	.artist-page-container
+	{
+		width : 100%;
+	}
+}
+
+@media screen and (max-width: 800px)
+{
+	.artist-song-name
+	{
+		width: 65%;
+	}
+
+	.artist-song-image
+	{
+		width: 15%;
 	}
 }
