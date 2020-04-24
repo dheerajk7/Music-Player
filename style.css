@@ -1190,6 +1190,15 @@ a
 	left: 75%;
 }
 
+#pause-play-button input
+{
+	width: 0;
+	height: 0;
+	overflow: hidden;
+	display: none;
+	z-index: 23;
+}
+
 @media screen and (max-width: 830px)
 {
 	#left-footer-container
