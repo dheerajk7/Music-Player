@@ -723,7 +723,7 @@ a
 	margin-bottom: 8%;
 }
 
-#latest-song-title
+.latest-song-title
 {
 	padding:0;
 	font-size: 1.0rem;
@@ -743,7 +743,7 @@ a
 	border-radius: 20%;
 }
 
-.latest-song-item:hover #latest-song-title
+.latest-song-item:hover .latest-song-title
 {
 	color: powderblue;
 }
