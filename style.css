@@ -702,6 +702,58 @@ a
 	opacity: 0.8;
 }
 
+.latest-song-container
+{
+	height: auto;
+	/*border: 2px solid orange;*/
+	margin-top: 5px;
+	display: flex;
+	flex-wrap: wrap;
+	overflow: hidden;
+	max-height: 209px;
+}
+
+.latest-song-item
+{
+	width: 12%;
+	height: 14.4rem;
+	/*border: 3px dotted violet;*/
+	flex-grow: 1;
+	min-width: 130px;
+	margin: 5px;
+	margin-bottom: 8%;
+}
+
+#latest-song-title
+{
+	padding:0;
+	font-size: 1.0rem;
+}
+.song-image
+{
+	opacity: 0.8;
+	transition: 0.5s all ease-in-out;
+	border-radius: 10%;
+	box-shadow: 0px 0px 2px 1px powderblue;
+}
+
+.latest-song-item:hover .song-image:hover
+{
+	opacity: 1;
+	transform: scale(0.9);
+	border-radius: 20%;
+}
+
+.latest-song-item:hover #latest-song-title
+{
+	color: powderblue;
+}
+
+.image-height-80
+{
+	height:10.1rem;
+}
+
 
 
 
