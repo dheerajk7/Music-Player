@@ -763,6 +763,188 @@ a
 	/*border: 2px solid orange;*/
 }
 
+.aside-container h1
+{
+	margin: 0px;
+}
+
+.position-relative
+{
+	position: relative;
+}
+
+.queue-list
+{
+	padding-left: 0px;
+	color: white;
+	list-style: none;
+}
+
+.display-inline-block
+{
+	display: inline-block;;
+}
+
+.width-80
+{
+	margin-left: 5.5%;
+	width: 81%;
+}
+
+.queue-list-item
+{
+	position: relative;
+	width: 96%;
+	margin: 2%;
+	height: 4.2rem;
+	display: flex;
+	/*border: 2px solid cyan;*/
+	justify-content: center;
+	align-items: center;
+	transition: 0.5s all ease-in-out;
+	/*border-radius: 20%;*/
+/*	background-color: #010132;
+*/	border-radius: 5px;
+}
+
+.queue-list-item:hover
+{
+	background-color: #01014E;
+	/*box-shadow: 0px 1.2px 3px 0.8px powderblue;*/
+	box-shadow: 0px 1.0px 0px -0.6px powderblue;
+	/*border-radius: 45%;*/
+	border-radius: 10px;
+}
+
+.queue-song-number
+{
+	color: lightgrey;
+	font-size: 0.8rem;
+	height: 100%;
+	width: 8%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0.8;
+}
+
+.queue-song-image-container
+{
+	/*border: 2px solid red;*/
+	width: 18%;
+	height: 84%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.queue-song-image
+{
+	height: 90%;
+	width: 95%;
+	opacity: 0.8;
+	padding:1%;
+}
+
+.queue-song-detail
+{
+	/*border: 2px solid white;*/
+	width: 57%;
+	height: 100%;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.queue-song-title
+{
+	width: 90%;
+	font-size: 1.05rem;
+	font-family: sans-serif;
+	color: powderblue;
+	/*word-spacing: px;*/
+	transition: 0.5s all ease-in-out;
+	opacity: 0.9;
+}
+
+.queue-play-icon
+{
+	color: lightgrey;
+	opacity: 0;
+	position: absolute;
+	font-size: 1.6rem;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.5s all ease-in-out;
+}
+.queue-list-item:hover .queue-song-title
+{
+	transform: scaleY(1.08);
+	color: powderblue;
+	opacity: 1;
+}
+
+.queue-list-item:hover .queue-play-icon
+{
+	opacity: 1;
+}
+
+.queue-song-genres
+{
+	width: 90%;
+	font-size: 0.8rem;
+	opacity: 0.7;
+}
+
+.queue-option-container
+{
+	width: 6%;
+	position: absolute;
+	right: 5%;
+	z-index: 2;
+	overflow: hidden;
+	transition: 0.3s width ease-in;
+	visibility: hidden;
+}
+
+#queue-option-button:hover ~ .queue-option-container
+{
+	visibility: visible;
+	width: 9%;
+}
+.like-icon
+{
+	/*border: 2px solid yellow;*/
+	width: 10%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 0.9rem;
+	color: lightgrey;
+	opacity: 0.8;
+}
+
+.like-icon i
+{
+	transition: 1s all ease-in-out;
+}
+
+.like-icon:hover i
+{
+	color: red;
+	transform: rotate(360deg);
+}
+
+
+
+
 @media screen and (max-width: 1150px)
 {
 	.main-contaier
