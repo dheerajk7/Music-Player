@@ -1547,4 +1547,24 @@ a
 	{
 		width: 15%;
 	}
+
+	.artist-album-detail-container
+	{
+		height: 15rem;
+	}
+
+	.artist-milind-detail
+	{
+		font-size: 0.8rem;
+	}
+
+	#follow
+	{
+		font-size: 0.9rem;
+	}
+
+	#playnowbutton
+	{
+		font-size: 0.9rem;
+	}
 }
