@@ -11,7 +11,7 @@ a
 	text-decoration:none;
 }
 
-/*style for navigation bar */
+/* navigation bar styles */
 .header-container
 {
 	height: 10vh;
@@ -177,8 +177,7 @@ a
 	transform: scale(1.150);
 }
 
-
-
+/*navigation bar media queries*/
 @media screen and (max-width: 960px)
 {
 	.sm-hidden
@@ -205,6 +204,7 @@ a
 	}
 }
 
+/*sections container*/
 .section-container
 {
 	display: flex;
@@ -212,6 +212,7 @@ a
 	height: auto;
 }
 
+/*main container*/
 .main-container
 {
 	height: auto;
@@ -223,11 +224,13 @@ a
 	/*border: 2px solid cyan;*/
 }
 
+/*class for relative position*/
 .position-relative
 {
 	position: relative;
 }
 
+/*all section heading*/
 .section-heading
 {
 	margin-top: 2%;
@@ -247,6 +250,8 @@ a
 	height: 11.4rem;
 	width: 100%;
 }
+
+/*styles for carousel container*/
 .carousel-container
 {
 	height: auto;
@@ -283,6 +288,7 @@ a
 	opacity: 1;
 }
 
+/*media queries for carousel container*/
 @media screen and (max-width: 774px)
 {
 	.carousel-item-image:hover
@@ -293,7 +299,7 @@ a
 	}
 }
 
-
+/*latest release container styles*/
 .latest-release-container
 {
 	height: auto;
@@ -450,6 +456,7 @@ a
 	transform: scaleY(1.2);
 }
 
+/*media queries for latest release and carousel item width*/
 @media screen and (max-width: 650px)
 {
 	.carousel-item
@@ -463,6 +470,7 @@ a
 	}
 }
 
+/*popular artist styles*/
 .popular-artist-container
 {
 	height: auto;
@@ -531,6 +539,7 @@ a
 	color: powderblue;
 }
 
+/*media queries for artist section*/
 @media screen and (max-width: 1150px)
 {
 	.artist-album-container
@@ -548,6 +557,7 @@ a
 	}
 }
 
+/*text style for all item title*/
 .text-style
 {
 	padding: 2px;
@@ -567,6 +577,7 @@ a
 	opacity: 1.4;
 }
 
+/*stations section styles*/
 .stations-container
 {
 	height: auto;
@@ -633,6 +644,7 @@ a
 	box-shadow: 0px 2px 2px 2px powderblue;
 }
 
+/*genres section styles*/
 .genres-container
 {
 	height: auto;
@@ -657,7 +669,6 @@ a
 	margin-bottom: 8%;
 	z-index: 1;
 }
-
 
 .genres-image
 {
@@ -701,6 +712,7 @@ a
 	opacity: 0.8;
 }
 
+/*latest song section styles*/
 .latest-song-container
 {
 	height: auto;
@@ -753,9 +765,7 @@ a
 	height:10.1rem;
 }
 
-
-
-
+/*aside section styles*/
 .aside-container
 {
 	height: auto;
@@ -768,11 +778,7 @@ a
 	margin: 0px;
 }
 
-.position-relative
-{
-	position: relative;
-}
-
+/*queue styles*/
 .queue-list
 {
 	padding-left: 0px;
@@ -942,6 +948,7 @@ a
 	transform: rotate(360deg);
 }
 
+/*media queries for widht of main and aside section*/
 @media screen and (max-width: 1150px)
 {
 	.main-contaier
@@ -967,6 +974,7 @@ a
 	}
 }
 
+/*footer section styles*/
 .footer-container
 {
 	height: 8%;
@@ -1199,6 +1207,7 @@ a
 	z-index: 23;
 }
 
+/*media queries for footer section*/
 @media screen and (max-width: 830px)
 {
 	#left-footer-container
@@ -1237,6 +1246,7 @@ a
 	}
 }
 
+/*to create margin at the bottom below footer container*/
 #bottom-margin
 {
 	height: 2vh; 
@@ -1259,6 +1269,7 @@ a
 	}
 }
 
+/*artist page styles*/
 .artist-page-container
 {
 	display: flex;
@@ -1292,6 +1303,7 @@ a
 	text-align: right;
 }
 
+/*album detail section*/
 .artist-album-detail-container
 {
 	height: 23rem; 
@@ -1364,6 +1376,7 @@ a
     box-shadow: 0px -30px 83px 35px #010132;
 }
 
+/*artist song section*/
 .artist-song-container
 {
 	height: auto;
@@ -1506,6 +1519,7 @@ a
 	transition: 4s background ease-in-out;
 }
 
+/*media queries for artist page*/
 @media screen and (max-width: 1150px)
 {
 	.artist-album-container

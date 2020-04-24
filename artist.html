@@ -11,11 +11,13 @@
 	<header class="header-container">
 		<nav class="nav-bar">
 			<div class="nav-list">
+				<!-- DZire logo and favourite-->
 				<div class="nav-left-container">
 					<a href="index.html" class="music-logo"><i id="guitar-icon" class="fas fa-guitar"></i>D<span class="z">Z</span>ire</a>
 					<a href="" class="nav-item sm-hidden nav-item-favourites" >Favourites</a>
 				</div>
 				<div class="nav-right-container">
+					<!-- search bar -->
 					<div href=" "class="nav-item" id="nav-item-search-container"><i class="fas fa-search"></i><input type="text" name="search" class="nav-item-search" placeholder="Search"><i class="fas fa-microphone"></i></div>
 					<a href="" class="nav-item sm-hidden" id="nav-item-bell-container"><i class="fas fa-bell" id="nav-item-bell" ></i></a>
 					<a href="" class="nav-item sm-hidden" id="nav-item-profile-container"><img src="static/dheeraj.png" id="nav-item-profile"></a>
@@ -26,8 +28,9 @@
 	<div class="section-container">
 		<!-- main-container -->
 		<main class="main-container">
-			<!-- artist detail with songs -->
+			<!-- artist details with songs -->
 			<div class="artist-page-container">
+				<!-- artist detail -->
 				<div class="artist-album-detail-container">
 					<div class="artist-album-image-container">
 						<img class="image-dimension-100" src="static/milind.jpg">
@@ -49,6 +52,7 @@
 						</div>
 					</div>
 				</div>
+				<!-- aritst songs -->
 				<div class="artist-song-container">
 					<a href=" " class="artist-song-item">
 						<div class="artist-song-number">
@@ -260,7 +264,9 @@
 				</div>
 			</div>
 		</main>
+		<!-- aside section for artist page -->
 		<aside  class="aside-container">
+			<!-- Similar artist section-->
 			<div class="artist-page-heading display-inline-block">Similar Artist</div>
 			<a href="" class="artist-page-heading display-inline-block view-all-title position-relative">View All</a>
 			<ul class="queue-list">
@@ -353,6 +359,7 @@
 					</li>
 				</a>
 			</ul>
+			<!-- recently played section -->
 			<div class="artist-page-heading display-inline-block">Recently Played</div>
 			<a href="" class="artist-page-heading display-inline-block view-all-title">View All</a>
 			<ul class="queue-list">
@@ -448,46 +455,47 @@
 		</aside>
 	</div>
 	<footer class="footer-container">
-	<div id="left-footer-container">
-				<img src="static/localoca.jpg" id="footer-song-image">
-					<div id="footer-song-detail">
-						<div id="footer-song-title">
-							Loca Loca
+		<!-- footer for artist page -->
+		<div id="left-footer-container">
+					<img src="static/localoca.jpg" id="footer-song-image">
+						<div id="footer-song-detail">
+							<div id="footer-song-title">
+								Loca Loca
+							</div>
+							<div id="footer-song-genres">
+								Rock
+							</div>
 						</div>
-						<div id="footer-song-genres">
-							Rock
-						</div>
-					</div>
-				</li>
-			</a>
-	</div>
-	<div id="center-footer-container">
-		<div id="prev-button">
-			<i class="fas fa-angle-double-left footer-button"></i>
+					</li>
+				</a>
 		</div>
-		<div href="" id="pause-play-button">
-			
-			<input type="radio" name="play" id="play-button">
-			<label for="play-button" id="play-button-label"><i class="fas fa-play footer-button"></i></label>
-			<input type="radio" name="play" id="pause-button" checked>
-			<label for="pause-button" id="pause-button-label"><i class="fas fa-pause footer-button"></i></label>
+		<div id="center-footer-container">
+			<div id="prev-button">
+				<i class="fas fa-angle-double-left footer-button"></i>
+			</div>
+			<div href="" id="pause-play-button">
+				
+				<input type="radio" name="play" id="play-button">
+				<label for="play-button" id="play-button-label"><i class="fas fa-play footer-button"></i></label>
+				<input type="radio" name="play" id="pause-button" checked>
+				<label for="pause-button" id="pause-button-label"><i class="fas fa-pause footer-button"></i></label>
+			</div>
+			<div id="next-button">
+				<i class="fas fa-angle-double-right footer-button"></i>
+			</div>
+			<div id="song-progress-bar">
+				<div id=song-title> Loca Loca | 04:12</div>
+				<div id="progress-bar"></div>
+				<a href="" id="progress-circle"></a>
+			</div>
+			<div id="volume-bar-container">
+				<i class="fas fa-volume-up footer-button" id="volume-button"></i>
+				<div id="volume-bar"></div>
+				<a href=" " id="volume-circle"></a>
+			</div>
 		</div>
-		<div id="next-button">
-			<i class="fas fa-angle-double-right footer-button"></i>
+		<div id="right-footer-container">
 		</div>
-		<div id="song-progress-bar">
-			<div id=song-title> Loca Loca | 04:12</div>
-			<div id="progress-bar"></div>
-			<a href="" id="progress-circle"></a>
-		</div>
-		<div id="volume-bar-container">
-			<i class="fas fa-volume-up footer-button" id="volume-button"></i>
-			<div id="volume-bar"></div>
-			<a href=" " id="volume-circle"></a>
-		</div>
-	</div>
-	<div id="right-footer-container">
-	</div>
 	</footer>
 	<div id="bottom-margin"></div>
 </body>
