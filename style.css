@@ -982,12 +982,11 @@ a
 	/*border: 3px solid red;*/
 	margin-top: 5px;
 	min-height: 50px;
-	top: 60%;
 	z-index: 10;
 	position: fixed;
 	width: 100%;
 	background-color: black;
-	top: 90.8%;
+	bottom: 0;
 	min-height: 60px;
 	display: flex;
 }
@@ -1258,6 +1257,14 @@ a
 {
 	#bottom-margin
 	{
+		margin-top: 6%;
+	}
+}
+
+@media screen and (max-width: 720px)
+{
+	#bottom-margin
+	{
 		margin-top: 8%;
 	}
 }
@@ -1266,7 +1273,7 @@ a
 {
 	#bottom-margin
 	{
-		margin-top: 12%;
+		margin-top: 14%;
 	}
 }
 
